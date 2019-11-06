@@ -1,0 +1,31 @@
+A Tree is basically traversed in two ways:
+
+1) Breadth First Traversal (Or Level Order Traversal)
+2) Depth First Traversal
+     * Inorder Traversal  (Left-Root-Right)
+     * Preorder Traversal (Root-Left-Right)
+     * Postorder Traversal (Left-Right-Root)
+    
+Time Compexity:
+All four traversals require O(n) time as they visit every node exactly once.
+
+Space Complexity:
+
+There is difference in terms of extra space required.
+
+1) Extra Space required for Level Order Traversal is O(w)
+where w is maximum width of Binary Tree.
+In level order traversal,
+queue one by one stores nodes of different level.
+
+2) Extra Space required for Depth First Traversals is O(h)
+where h is maximum height of Binary Tree.
+In Depth First Traversals, stack (or function call stack)
+stores all ancestors of a node.
+
+It is evident from above points that extra space required
+ for Level order traversal is likely to be more when tree 
+ is more balanced and extra space for Depth First Traversal
+  is likely to be more when tree is less balanced.
+
+  

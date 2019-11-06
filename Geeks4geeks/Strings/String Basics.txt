@@ -1,0 +1,32 @@
+String is a Character Array
+
+In other words, a string is a sequence of characters terminated with a null character "\0"
+
+example:
+
+char c[] = "c string";
+
+declaring a string 
+ 
+ char s[5];
+
+ // Initialise strings
+
+ char c[5] = "abcd";
+ char c[50] = "abgdg";
+ char c[] = {'a', 'b', 'c', 'd', 'e'};
+ char c[5] = {'a', 'b', 'c', 'd', '\0'};
+
+ char c[5] = "abcde";
+
+ We can use a scanf to read a string from the user:
+
+ Scanf reads the string until it encounters a whitespace;
+ 
+ We can use fgets()  to read a line of the string.
+ An we can use puts() to display the string.
+
+ 
+
+
+
